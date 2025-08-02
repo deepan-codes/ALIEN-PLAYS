@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ALIEN PLAYS</title>
+    <link href="stylesheet.css" rel="stylesheet" />
+    <link href="mediaquery.css" rel="stylesheet" />
+    <link rel="icon" href="favicon.png.jpeg" />
+  </head>
+  <body>
+    <div class="page-con">
+      <div class="wrapped-div">
+        <div class="main-block">
+          <div class="block-1">
+            <p class="head--1 head active">PLAYER 1</p>
+            <p class="score_0 score">21</p>
+            <div class="current">
+              <p class="label">Current</p>
+              <p class="score-res score--0">0</p>
+            </div>
+          </div>
+
+          <div class="block-2">
+            <p class="head head--2">PLAYER 2</p>
+            <p class="score_1 score">41</p>
+            <div class="current">
+              <p class="label">Current</p>
+              <p class="score-res score--1">0</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <img class="dice-img" src="dice-5.png" />
+      <button class="btn btn--new">🔄 NEW GAME</button>
+      <button class="btn btn--roll">🎲 ROLL DICE</button>
+      <button class="btn btn--hold">📥 HOLD</button>
+      <button class="play">
+        Play Guide
+        <ion-icon class="game-icon" name="game-controller-outline"></ion-icon>
+      </button>
+      <div class="guide-container hidden">
+        <div class="game-guide">
+          <ol class="list">
+            <p class="ins-title">🕹️ HOW TO PLAY</p>
+            <li>Player 1 starts.</li>
+            <li>
+              Click "Roll Dice" 🎲 — the number you roll (except 1) is added to
+              your Current Score.
+            </li>
+            <li>
+              If you roll a 1, your Current Score becomes 0, and the turn
+              switches to the next player.
+            </li>
+            <li>
+              To avoid risk, click "Hold" — your current Score added to your
+              Total Score.
+            </li>
+            <li>
+              which player to reach 100 Total Score and click "Hold" wins the
+              game! 🏆
+            </li>
+          </ol>
+          <button class="close">
+            <ion-icon class="btn-close" name="close-outline"></ion-icon>
+          </button>
+        </div>
+      </div>
+      <footer class="foot">
+        <span>Built by Deepan 👾 Game on!</span>
+        <a
+          class="insta lin"
+          href="https://www.instagram.com/deepan_s__"
+          target="_blank "
+          ><ion-icon class="insta-log" name="logo-instagram"></ion-icon
+        ></a>
+        <a
+          class="linked-in lin"
+          href="https://www.linkedin.com/in/deepanraj03"
+          target="_blank"
+          ><ion-icon class="linked-log" name="logo-linkedin"></ion-icon
+        ></a>
+      </footer>
+
+      <div class="back-filter hidden"></div>
+    </div>
+    <div class="alert">
+      <h2>The web game is best viewed on desktop</h2>
+      <p>Please use laptop or enable desktop mode in your mobile browser</p>
+      <img class="alien-img" src="alienprogress.png" />
+      <footer class="foot">
+        <span class="name">Built by Deepan 👾 Game on!</span>
+        <a
+          class="insta link lin"
+          href="https://www.instagram.com/deepan_s__"
+          target="_blank "
+          ><ion-icon class="insta-log" name="logo-instagram"></ion-icon
+        ></a>
+        <a
+          class="linked-in link lin"
+          href="https://www.linkedin.com/in/deepanraj03"
+          target="_blank"
+          ><ion-icon class="linked-log" name="logo-linkedin"></ion-icon
+        ></a>
+      </footer>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="javascript.js"></script>
+  </body>
+</html>

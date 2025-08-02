@@ -1,0 +1,30 @@
+@media (max-width: 57em) {
+  .page-con {
+    display: none;
+  }
+  .alert {
+    display: block;
+    text-align: center;
+    height: 100vh;
+    background: linear-gradient(green, black);
+    font-size: 5rem;
+    color: aliceblue;
+  }
+  .link {
+    font-size: 4rem;
+  }
+  .name {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 30em) {
+  .link {
+    font-size: 3rem;
+  }
+  .name {
+    font-size: 2rem;
+  }
+  .alert {
+    font-size: 2rem;
+  }
+}
